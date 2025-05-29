@@ -1,34 +1,37 @@
 body{
-    background-color:snow;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
+    /* background-color:rgba(178, 178, 178, 0.457); */
+    font-family:'Times New Roman', Times, serif!important;
     padding: 0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navbar{
-    background-color: rgb(205, 222, 236);
+    position: sticky;
+    background-color: rgb(190, 204, 210);
     padding: 10px 70px;
-    border-bottom: 1px solid rgb(151, 191, 231);
-    box-shadow: 0px 1px 9px rgba(0,0,0,0.8);
+    /* border-bottom: 1px solid rgb(151, 191, 231); */
+    /* box-shadow: 0px 1px 9px rgba(0,0,0,0.8); */
 }
 
 .navbar a{
     font-weight: bold;
-    color: black !important;
+    color: white !important;
     transition: background-color 0.25s ease, color 0.25s ease;
     /* text-transform: uppercase; */
-    font-size: 15px;
+    font-size: 18px;
     line-height: 2;
 }
 
 .btn{
     background-color: white;
     border: none;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 input.form-control {
-    font-size: 15px;
+    font-size: 13.5px;
 }
 
 input.form-control:focus {
@@ -37,11 +40,79 @@ input.form-control:focus {
     outline: none;
 }
 
-
 button.btn {
     padding: 5px 14px; 
     font-size: 0.85rem; 
     height: 32px; 
     line-height: 1.1;
 }
-    
+
+.first{
+    font-size: small;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 30px;
+    gap: 60px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.left-content {
+    flex: 1; 
+    max-width: 600px;
+}
+
+.left-content .breadcrumb {
+    background: none;
+    padding: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.left-content h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.left-content p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: black;
+}
+
+.right-image {
+    margin-top: 70px;
+    flex: 1;
+    max-width: 600px;
+}
+
+.right-image img {
+    width: 105%;
+    height: 400px;
+    border-radius: 2px; 
+    /* object-fit: cover; */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.btn-light{
+    padding: 25px!important;
+    font-size: 20px !important;
+    border-radius: 1px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+}

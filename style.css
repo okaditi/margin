@@ -224,6 +224,7 @@ button.btn {
     text-align: center;
     color: white;
     font-size: 19px;
+    margin-bottom: 0px;
 }
 
 .ex{
@@ -236,9 +237,92 @@ button.btn {
     background-color: rgba(164, 151, 141, 0);
 }
 
-.black{
-    background-color: black;
-    width: 200vh;
+.dark{
+    padding-top: 85px;
+    display: flex;
+    gap: 100px;
+    padding-bottom: 85px;
 }
 
+.left{
+    margin-left: 60px;
+    max-width: 80vh;
+}
 
+.left h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.left p{
+    margin-top: 28px;
+    font-size: 20px;
+}
+
+.right img{
+    width: 550px;
+    height: 350px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.8);
+}
+
+.tor{
+    display: flex;
+    padding-top: 85px;
+    gap: 100px;
+    padding-bottom: 85px;
+    color: white;
+}
+
+.center{
+    padding-top: 100px ;
+    text-align: center;
+    background-color: rgba(96, 119, 124, 1);
+}
+
+.center h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 1px;
+    padding-bottom: 25px;
+}
+
+.center p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 25px;
+    font-size: 25px;
+    max-width: 80%;
+    padding-left: 20%;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.left h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 100px;
+}
+
+.lefti img{
+    margin-left: 60px;
+    width: 550px;
+    height: 350px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.8);
+}
+
+.righti{
+    margin-left: 60px;
+    max-width: 80vh;
+}
+
+.righti h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 100px;
+}
+
+.righti p{
+    margin-top: 28px;
+    font-size: 20px;
+}

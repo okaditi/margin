@@ -20,7 +20,7 @@ Thus, **Margin** was born — a second chance for both an underestimated framewo
 ## 🔗 Live Demo
 
 Check out the project in action:  
-🌐 [Live Demo](https://lnkd.in/eNnt9MNu)
+🌐 [Live Demo](https://themargin.netlify.app/)
 
 ## 💻 Tech Stack
 

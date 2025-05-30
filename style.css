@@ -68,7 +68,7 @@ button.btn {
 }
 
 .image{
-    background-image: url(bg.jpg);
+    background-image: url(images/bg.jpg);
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -174,7 +174,7 @@ button.btn {
 }
 
 .template{
-    background-image: url(template.jpg);
+    background-image: url(images/template.jpg);
     background-size: contain;
     height: 60vh;
     background-repeat: no-repeat;
@@ -331,7 +331,7 @@ button.btn {
 }
 
 .story{
-    background-image: url(Screenshot\ 2025-05-30\ 030802.png);
+    background-image: url(images/Screenshot\ 2025-05-30\ 030802.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 200vh;
